@@ -5,17 +5,14 @@
 :root {
   --background: #ffffff;
   --foreground: #171717;
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+  --primary: #2b7f75;
+  --secondary: #4aa1ff;
+  --muted: #f5f5f5;
+  --muted-foreground: #f9fafb;
+  --danger: #ca1c54;
 }
 
 body {
   color: var(--foreground);
   background: var(--background);
-  font-family: Arial, Helvetica, sans-serif;
 }
